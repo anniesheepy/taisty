@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Taisty
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button (click)="addMarker()"><ion-icon name="add" id="plus"></ion-icon></button>
+    </ion-buttons> 
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h4>Click + to see Taiwanese restaurants near you</h4>
+   <div #map id="map"></div> 
+</ion-content>
