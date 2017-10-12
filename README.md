@@ -1,3 +1,5 @@
+Taisty - a Taiwanese restaurants finder hybrid app
+
 √ Create a new projects with ionic framwork
   - Different file structure
   - Using some typescript (.ts) in addition to javascript
