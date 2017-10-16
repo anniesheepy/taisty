@@ -1,4 +1,8 @@
 Taisty - a Taiwanese restaurants finder hybrid app
+For full app concept development, please visit http://www.anniekwhsu.com/taisty/
+
+
+I picked up the most essential feature of Taisty, search for Taiwanese restaurants, to make an app with Cordova. I also use ionic to layout the basic structure and make use of google map API service. Please visit http://www.anniekwhsu.com/taistyFiles/annie_taistyDocumentation.pdf  to see my detail documentation of the app production. Also click http://www.anniekwhsu.com/taistyFiles/android-debug.apk to download this Android version Taisty app.
 
 √ Create a new projects with ionic framwork
   - Different file structure
@@ -24,15 +28,15 @@ Taisty - a Taiwanese restaurants finder hybrid app
       
 √ In order to make image show both on browser and mobile devices
   
-  <img src=”./assets/img/food.jpg” >
+  img src=”./assets/img/food.jpg” 
   
   instead of (image only showing when testing on browser)
   
-  <img src=”../assets/img/food.jpg” >
+  img src=”../assets/img/food.jpg” 
   
   or (image only showing when testing on mobile devices)
   
-  <img src=”/assets/img/food.jpg” >
+  img src=”/assets/img/food.jpg”
 
 √ Splash and icon
   The source image for icons should ideally be at least 1024×1024px and located at resources/icon.png. The source image for splash screens
